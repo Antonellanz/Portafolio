@@ -1,0 +1,45 @@
+.sobremi {
+  padding: 4rem 2rem;
+  background-color: #111;
+  
+ align-items: center;
+  color: #f0f0f0;
+  text-align: left;
+  max-width: px;
+  margin: 0 auto;
+  border-left: 4px solid #111;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.sobremi__titulo {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #FFD700;
+  text-align: center;
+}
+
+.sobremi__texto {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  text-align: -webkit-center;
+  margin-top: 3rem;
+}
+
+.sobremi__datos {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #FFD700;
+}
+.home__photo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #FFD700;
+  object-fit: cover;
+}

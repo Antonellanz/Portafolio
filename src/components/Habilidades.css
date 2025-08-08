@@ -1,0 +1,56 @@
+.habilidades {
+  padding: rem rem;
+  background-color: #0e0d0d;
+  color: #f8f8f8;
+  text-align: center;
+  width: 100%;
+}
+
+.habilidades__titulo {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  color: #FFD700;
+  
+  display: block;
+}
+
+.habilidades__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 5rem;
+
+}
+
+.habilidad__card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #FFD700;
+  border-radius: 15px;
+  width: 280px;
+  padding: 2rem 1.5rem;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.habilidad__card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.5);
+}
+
+.habilidad__card h3 {
+  color: #FFD700;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.habilidad__card ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 2;
+}
+
+.habilidad__card li {
+  font-size: 1.2rem;
+}

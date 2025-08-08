@@ -1,0 +1,86 @@
+.proyectos {
+  padding: 4rem 2rem;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+.proyectos__titulo {
+  font-size: 2.5rem;
+  color: #FFD700;
+  margin-bottom: 3rem;
+ 
+  display: block;
+}
+
+.proyectos__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.proyecto__card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #FFD700;
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 300px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.1);
+}
+
+.proyecto__card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+.proyecto__card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.proyecto__card h3 {
+  color: #FFD700;
+  margin-bottom: 1.7rem;
+}
+
+.proyecto__card p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.proyecto__botones {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: #FFD700;
+  color: #111;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffe766;
+}
+
+.btn__secundario {
+  background-color: transparent;
+  border: 1px solid #FFD700;
+  color: #FFD700;
+}
+
+.btn__secundario:hover {
+  background-color: #FFD700;
+  color: #111;
+}

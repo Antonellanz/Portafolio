@@ -1,0 +1,37 @@
+.contacto {
+  
+  padding: 4rem 2rem;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  text-align: center;
+  border-top: 33px solid #0e0d0d;
+  width: 100%;
+
+}
+
+.contacto__titulo {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #FFD700;
+  
+}
+
+.contacto__mensaje {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.contacto__datos {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.contacto__datos a {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contacto__datos a:hover {
+  text-decoration: underline;
+}
